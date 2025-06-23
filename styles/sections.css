@@ -40,13 +40,13 @@
   margin-bottom: 56px;
 }
 
-.subtitle-red {
+.subtitle {
   font: var(--subtitle);
   color: var(--gray-200);
   margin-bottom: 8px;
 }
 
-.subtitle-red span {
+.subtitle span {
   color: var(--red);
 }
 
