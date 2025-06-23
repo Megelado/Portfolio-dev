@@ -1,0 +1,57 @@
+#projects {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-items: center; /* Centraliza tudo horizontal e verticalmente */
+  padding-top: 80px; /* Dá espaço em relação à seção anterior */
+  padding-bottom: 80px;
+  gap: 48px; /* Espaço entre header e grid */
+}
+
+/* Centraliza o conteúdo do header */
+#projects header {
+  text-align: center;
+}
+
+/* Título e subtítulo */
+.subtitle-red {
+  color: var(--red);
+}
+
+#projects h2 {
+  font: var(--title-md);
+  margin-top: 8px;
+}
+
+#projects h3 {
+  font: var(--title-sm);
+}
+
+/* A grid de cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  width: 100%;
+  max-width: 1080px;
+}
+
+/* Estilo dos cards */
+.projectcard {
+  background-color: var(--gray-400);
+  border-radius: 12px;
+  padding: 12px;
+  width: 100%;
+  overflow: hidden;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectcard img {
+  margin-bottom: 20px;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 8px;
+}
