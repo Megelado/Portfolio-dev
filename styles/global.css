@@ -34,7 +34,7 @@
 body {
   font: var(--text-sm);
   color: var(--gray-200);
-  background-color: var(--gray-500);
+  background-color: #16181D;
   min-height: 100vh; /* Garante que o body ocupe toda a altura da tela */
   display: flex; /* Ativa Flexbox no body */
   flex-direction: column; /* Empilha as sections verticalmente */

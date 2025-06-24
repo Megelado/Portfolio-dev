@@ -1,3 +1,46 @@
 #contact {
-  background-image: url(../assets/images/Background_Contacts.png);
+  background-image: url(../assets/images/Contact.jpg);
+  height: 787px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  .subtitle-purple {
+    text-align: center;
+    color: var(--purple);
+  }
+  h2 {
+    text-align: center;
+    font: var(--title-md);
+    color: var(--gray-100);
+    padding-block: 8px;
+  }
+  .links {
+    padding: 16px;
+
+    .social-button {
+      width: 400px;
+      height: 68px;
+      display: flex;
+      align-items: center;
+      border-radius: 8px;
+      background-color: var(--gray-400);
+      gap: 12px;
+      margin: 16px;
+      padding: 20px;
+      .logo {
+      width: 28px;
+      height: 28px;
+      }
+      .seta {
+        width: 20px;
+        height: 20px;
+        margin-left: auto;
+      }
+
+    }
+  }
 }
