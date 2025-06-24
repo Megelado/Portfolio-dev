@@ -1,0 +1,6 @@
+#services {
+  background-color: var(--gray-600);
+  div {
+    background-color: var(--gray-500);
+  }
+}
