@@ -1,6 +1,7 @@
 #projects {
   width: 100%;
   min-height: 100vh;
+  height: 57.3125rem;
   display: grid;
   place-items: center; /* Centraliza tudo horizontal e verticalmente */
   padding-top: 80px; /* Dá espaço em relação à seção anterior */
@@ -25,6 +26,11 @@
 
 #projects h3 {
   font: var(--title-sm);
+  color: var(--gray-100);
+}
+
+#projects p {
+  color: var(--gray-200);
 }
 
 /* A grid de cards */
@@ -46,6 +52,10 @@
   height: 280px;
   display: flex;
   flex-direction: column;
+}
+
+.projectcard:hover {
+  background-color: #2e313a;
 }
 
 .projectcard img {

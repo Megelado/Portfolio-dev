@@ -1,6 +1,6 @@
 #contact {
   background-image: url(../assets/images/Contact.jpg);
-  height: 787px;
+  height: 49.1875rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,14 +16,16 @@
     text-align: center;
     font: var(--title-md);
     color: var(--gray-100);
-    padding-block: 8px;
+    padding-block: .5rem;
   }
   .links {
-    padding: 16px;
+    max-width: 25rem;
+    max-height: 24rem;
+    padding: 1rem;
 
     .social-button {
-      width: 400px;
-      height: 68px;
+      width: 25rem;
+      height: 4.25rem;
       display: flex;
       align-items: center;
       border-radius: 8px;
@@ -34,11 +36,19 @@
       .logo {
       width: 28px;
       height: 28px;
+      color: var(--gray-300);
       }
       .seta {
         width: 20px;
         height: 20px;
         margin-left: auto;
+      }
+
+      &:hover {
+        border: 1px solid var(--blue);
+        .logo {
+          color: var(--blue);
+        }
       }
 
     }

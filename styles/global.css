@@ -35,7 +35,9 @@ body {
   font: var(--text-sm);
   color: var(--gray-200);
   background-color: #16181D;
+  width: 100%;
   min-height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+  max-height: 183.375rem;
   display: flex; /* Ativa Flexbox no body */
   flex-direction: column; /* Empilha as sections verticalmente */
 }

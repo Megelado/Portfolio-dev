@@ -1,4 +1,5 @@
 #services {
+  height: 30rem;
   padding-top: 88px;
   padding-bottom: 120px;
   background-color: var(--gray-600);
@@ -36,6 +37,9 @@
         color: var(--gray-100);
         font: var(--title-sm);
         margin-bottom: 8px;
+      }
+      &:hover {
+        background-color: var(--gray-400);
       }
     }
   }
